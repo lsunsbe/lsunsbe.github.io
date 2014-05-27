@@ -1,0 +1,37 @@
+#names ul {
+	list-style: none;
+    
+} 
+
+#names li.name{
+    -webkit-transition:font-size .1s; /* For Safari 3.1 to 6.0 */
+    transition:font-size .1s;
+}
+
+#names li.name:hover{
+    font-size: 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+#biography {
+    float: right;
+    display: inline;
+    width: 50%;
+    background-color: #8d1717;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+
+#names {
+    float: left;
+    display: inline;
+    font-size: relative;
+    margin: 4px;
+    margin-left: 80px;
+    border: 2px solid;
+    padding-bottom: 50px;
+}
+
