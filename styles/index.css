@@ -18,18 +18,21 @@
 #announements, #recentnews{
     float: left;
 	border: 0px solid #000;
-	height: 225px;
+	height: 300px;
 	width: 45%; 
     border-radius: 10px; 
     background: rgba(185, 72, 51, 0.78);
 }
 
 #announements{
-    margin-left: 114px;
-    height: 145px;
+    margin-left: 25px;
+    height: auto;
     margin-top: 20px;
-    width: 30%;
+    width: 45%;
+    padding-bottom: 10px;
+    background: rgba(155, 155, 101, 0.9);
 }
+
 
 #recentnews{
     margin-right: 15px;
@@ -37,28 +40,36 @@
     margin-top: 30px;
 }
 
+#recentnews p{
+    font-family: "Open Sans", sans-serif;
+}
+
+#announements p{
+    font-family: "Open Sans", sans-serif;
+}
+
 #frontimage{
     float: left;
     width: 45%;
-    height: 400px;
+    height: 500px;
     margin-left: 10px;
     margin-top: 20px;
-    border: 5px solid rgba(185, 72, 51, 0.78);;
+    margin-bottom: 15px;
+    border: 0px solid rgba(185, 72, 51, 0.78);
+}
+
+#frontimage img{
+    height: 500px;
+    width: 100%;
 }
 
 h4 {
-    font-size: 35px;
+    font-size: 25px;
     margin: 0px;
+    font-family: "Bevan";
 }
 
-#titlebar img{
-    display: inline;
-    width: 19%;
-}
 
-#titlebar .pic{
-    width: 40%;
-}
 
 a:link {
     text-decoration: underline;
@@ -79,3 +90,77 @@ span {
 }
 
 
+
+#interestedheading {
+    clear:both;
+    font-family: "Bevan";
+    font-size: 50px;
+  padding-top: 10px;
+}
+
+
+#interestedsection {
+    clear: both;
+    background: rgb(124, 35, 35);
+    padding-top: 30px;
+    
+    
+}
+
+#email, #national {
+    width: 45%;
+    background: rgb(234, 227, 186);
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+}
+
+#national{
+    float: right;
+}
+
+#email{
+    float: left;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: monospace;
+}
+
+#emailbox {
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    width: 90%;
+    align-content: center;
+}
+
+#gobutton {
+    display: block;
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 40px;
+    font: "Helvetica";
+    font-weight: 600;
+    width: 35%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(132, 32, 32, 0.94);
+}
+
+#frontimage{
+    
+   
+}
+
+#frontimage img{
+    display: none;
+    border-radius: 10px;
+}
+
+#frontimage img.active{
+    display: block;
+}

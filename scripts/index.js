@@ -1,15 +1,24 @@
 /*jslint browser: true*/
 /*global $, jQuery*/
-"use strict";
 
 
-!function(d,s,id)
-{
+var i = 0;
+
+function slideSwitch() {
+    var $currentPhoto = $('#frontimage img.active');
+    $currentPhoto.fadeOut("fast");
+    $currentPhoto.removeClass('active');
     
-    var js,fjs=d.getElementsByTagName(s[0],p=/^http:/.test(d.location)?'http':'https';
-    if(!d.getElementById(id))                    
-        {js=d.createElement(s);
-         js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
-         fjs.parentNode.insertBefore(js,fjs);
-        }
-}(document, 'script', 'twitter-wjs');
+    i = i + 1;
+    if (i == $('#frontimage img').length){
+        i = 0;
+        
+    }
+    
+    $($('#frontimage img').get(i)).addClass("active");
+    $($('#frontimage img').get(i)).fadeIn("fast");
+}
+
+    $(function() {
+        setInterval( "slideSwitch()", 5000 );
+    });
