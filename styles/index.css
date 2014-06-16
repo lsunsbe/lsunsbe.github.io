@@ -5,15 +5,44 @@
 
 #floatingsocial{
     border: 0px solid #b28484;
-    width: 4.0%;
+    width: 3.5%;
     height: auto;
-    margin-left: 8.0%;
+    margin-left: 8.5%;
     margin-top: 20%;
     position: fixed;
     float: left;
-    vertical-align:middle;
-    
+    vertical-align:middle; 
+    border-radius: 10px;
+    box-shadow: -3px 2px 13px #888888;
+    background: rgba(222, 185, 122, 0.62);
 }
+
+.button{
+    background: rgba(222, 185, 122, 0.62);
+}
+
+.button a img{
+    margin: auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 60%;
+    margin: 15%;
+}
+
+#facebookbutton{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#nsbebutton{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button:hover{
+    background: rgba(195, 153, 80, 0.62);
+}
+
 
 #announements, #recentnews{
     float: right;
@@ -27,7 +56,6 @@
 }
 
 #announements{
-    
     height: auto;
     margin-top: 20px;
     padding-bottom: 10px;
@@ -38,8 +66,6 @@
 
 
 #recentnews{
-    
-    
     margin-top: 30px;
 }
 
@@ -71,6 +97,8 @@
 h4 {
     font-size: 25px;
     margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Bevan";
 }
 
@@ -94,12 +122,14 @@ span {
     color: #1c641c;
 }
 
-
+hr{
+    margin: 10px;
+}
 
 #email, #links {
     width: 45%;
     margin-top: 20px;
-    height: 553px;
+    height: 410px;
     border-radius: 10px;
     display: block;
     
@@ -120,11 +150,6 @@ span {
     
     margin-right: 1%;
     width: 50%
-}
-
-h3 {
-    font-size: 25px;
-    font-family: monospace;
 }
 
 #emailbox {
@@ -158,10 +183,21 @@ h3 {
     background: rgba(132, 32, 32, 0.74);
 }
 
-#frontimage{
-    
-   
+.event{
+    text-align: right;
 }
+
+
+.date{
+    text-align: left;
+    font-weight: bolder;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 #frontimage img{
     display: none;
