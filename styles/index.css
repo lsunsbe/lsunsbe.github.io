@@ -36,7 +36,7 @@ td{
 }
 
 #recentnews p{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Optima", serif;
     font-size: 15px;
 }
 
@@ -170,7 +170,7 @@ table{
     margin-right: auto;
 }
 
-
+/*
 #frontimage img{
     display: none;
     border-radius: 10px;
@@ -178,7 +178,7 @@ table{
 
 #frontimage img.active{
     display: block;
-}
+} */
 
 #date {
     color: #983131;
