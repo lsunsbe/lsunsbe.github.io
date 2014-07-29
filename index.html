@@ -12,11 +12,13 @@
     
 	<link rel="shortcut icon" type="img/ico" href="images/favicon.ico">
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="scripts/index.js"></script>
+    <script src="scripts/index2.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -28,7 +30,7 @@
 <!--By using container, we can center all the site content easily-->
     <div id="floatingsocial">
         <div class="button" id="facebookbutton">
-            <a href="https://www.facebook.com/GeauxNSBE">
+            <a href="https://www.facebook.com/GeauxNSBE" target="_blank">
                 <img src="images\Facebook_Logo.jpeg" 
                 alt="NSBE on Facebook" 
                 >
@@ -36,7 +38,7 @@
         </div>
         
         <div class="button" id="twitterbutton">
-            <a href="https://www.twitter.com/NSBELSU">
+            <a href="https://www.twitter.com/NSBELSU" target="_blank">
                 <img src="images\Twitter_logo_blue.jpg" 
                 alt="NSBE on Twitter" 
                 >
@@ -44,7 +46,7 @@
         </div>
         
         <div class="button" id="instagrambutton">
-            <a href="https://www.instagram.com/nsbe_lsu">
+            <a href="https://www.instagram.com/nsbe_lsu" target="_blank">
                 <img src="images\Insta_logo.jpg" 
                 alt="NSBE on Instagram" 
                 >
@@ -52,7 +54,7 @@
         </div>
         
         <div class="button" id="nsbebutton">
-            <a href="http://nsbe.org">
+            <a href="http://nsbe.org" target="_blank">
                 <img src="images/NSBElogo.png" 
                 alt="NSBE Official" 
                 >
@@ -117,6 +119,10 @@
                 <td class="event">Regional Conference:</td>
                 <td class="date">September 14, 2014</td>
             </tr>
+            <tr>
+                <td class="event">NSBE Engineers Barbeque:</td>
+                <td class="date">September 29, 2014</td>
+            </tr>
         </table>
 		<a href="calendar.html">More upcoming events...</a>
 	</div>
@@ -124,24 +130,29 @@
 
     <div id="recentnews">
         <h4> Recent News</h4>
-        <div class=story>
-            <p><span id="date">May 21, 2014: </span> <span id="heading">Appellat non voluptate, hic Duis elementum  tamen  </span> Eu mattis rhoncus Lorem Proin ultricies   sodales lectus sagittis sagittis ipsum dolor sit amet, Duis elementum, mauris consectetur adipiscing elit.              Proin  elitconvallis. Duis elementum, mauris eu Duis elementum, mauris, dui dui                  sodales lectus, sit amet ullamcorper... <a href="news.html#news1">Read More...</a> </p> </div> <br />
-            <div class=story>
-                <p><span id="date">May 21, 2014: </span> <span id="heading">Fabulas a anim excepteur, varias excepteur de noster culpa, ita  </span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.              Eu mattis rhoncus Proin ultricies sagittis convallis. Duis elementum mauris consectetur adipiscing elit, mauris eu mattis rhoncus, dui dui                  sodales lectus, sit amet ullamcorper... <a href="news.html#news2">Read More...</a> </p> </div>
+        <div class="story">
+            <p><span id="date">May 21, 2014: </span> <span id="heading">Appellat non voluptate, hic Duis elementum    </span></p>
+            <p class="content"> Eu mattis rhoncus Lorem Proin ultricies   sodales lectus sagittis sagittis ipsum dolor sit amet, Duis elementum, mauris consectetur adipiscing elit.              Proin  elitconvallis. Duis elementum, mauris eu Duis elementum, mauris, dui dui                  sodales lectus, sit amet ullamcorper... <a href="news.html#news1">Read More...</a> </p> 
+        </div> 
+        <br />
+            <div class="story">
+                <p><span id="date">May 21, 2014: </span> <span id="heading">Fabulas a anim excepteur, varias excepteur de  </span></p>
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.              Eu mattis rhoncus Proin ultricies sagittis convallis. Duis elementum mauris consectetur adipiscing elit, mauris eu mattis rhoncus, dui dui                  sodales lectus, sit amet ullamcorper... <a href="news.html#news2">Read More...</a> </p> </div>
 
-            <a href="news.html">More News...</a>
+            <div class="morenews"><a href="news.html">More News...</a></div>
     </div>
 
         
         <div id="email">
             <h2 id="interestedheading">Want To Get Involved With NSBE?</h2>   
             <h3>Add your email to the NSBE mailing list:</h3>
-            <form action="localhost/email.php" method="post">
-                <input id="emailbox" type="text" name="email" placeholder="Enter email here...">
-                <input id="gobutton" type="submit" name="Geaux" value="Send">
+            <form action="" method="post">
+                <input id="emailbox" type="text" name="email" placeholder="Enter email here..." value="">
+                <input id="gobutton" type="submit" name="submitbutton" value="Send">
+                
             </form> 
             <br/>
-            <p>Or <a href="">Contact Us</a> directly for more info.</p>
+            <p>Or <a href="contact.html">Contact Us</a> directly for more info.</p>
             <hr>
             <br>
             <p>You can also <a href="https://nsbe.networkats.com/members_online/members/newmember_quick.asp?action=">Register as an Official NSBE Member</a></p>
@@ -158,10 +169,6 @@
         <br />
         <br />
 
-	<!--This is how you link, with link aption preceding address-->
-	<p style="clear: both"><a href="http://www.youtube.com/watch?v=guMFKBXp544">Youtube Link</a></p>
-
-	<p>Same video, different way to view it</p>
 
 	<!---IMPORTANT: IFrames fuck up live updating for Brackets, so temporarily removed for now-->
 	<!--To display Video on page
@@ -172,12 +179,7 @@
 	allowfullscreen>
 	</iframe>-->
 
-    
-	<p>Please follow us on Social Media! <br>Just click an image to be directed straight to our pages.</br></p>
-
-	<!--Using links inside of pictures-->
-	
-
+    	
 </div> 
 
 </body>

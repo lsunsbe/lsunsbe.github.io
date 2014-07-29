@@ -1,12 +1,21 @@
-/*
-.purposeitem {
-    border: 1px solid black;
-    padding: 20px;
-} */
+
+p{
+    text-align: left;
+    margin-bottom: 5px;
+    
+}
+
+li {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+#description ul{
+    margin-bottom: 7px;
+}
 
 #purposemenu {
     list-style: none;
-    /*border: 1px solid black;*/
     width: 20%;
     float: left;
     margin: 5%;
@@ -16,7 +25,6 @@
 
 #purposemenu li {
     height: 55px;
-    border: 1px solid; 
 }
 
 #purposemenu a{
@@ -55,7 +63,7 @@
 }
 
 #menucol {
-    background: rgb(175, 3, 3);
+    background: rgb(131, 27, 27);
     float: left;
     position: absolute;
     width: 15%;
