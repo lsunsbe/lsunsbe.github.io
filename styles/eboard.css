@@ -10,6 +10,10 @@ li {
     width: 300px;  
 }
 
+ul{
+    height: 400px;
+}
+
 #title{
     font-size: 22px;
 }
@@ -55,17 +59,19 @@ li {
 }
 
 .linkedin{
-    width: 60px;
-    height: 15px;
+    width: 80px;
+    height: 18px;
     margin-top: 15px;
 }
 
 #biography h2{
     color: #810000;
+    font-size: 30px;
 }
 
 #biography h3{
-    color: #b71c1c;
+    color: #9a0b0b;
+    font-size: 19px;
 }
 
 #names {
