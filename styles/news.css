@@ -41,11 +41,6 @@ td {
 }
 
 
-td:hover .sharebutton{
-    display: block;
-    border: none;
-}
-
 
 .date {
     width: 120px;
