@@ -16,10 +16,12 @@ td {
 
 .newsstyle1 {
     background: rgba(191, 46, 46, 0.79);
+    -moz-border-radius: 10px;
 }
 
 .newsstyle2 {
     background: rgba(111, 32, 32, 0.95);
+    -moz-border-radius: 10px;
 }
 
 #newstable {
